@@ -1,0 +1,18 @@
+Question 1:
+
+totalSum = sum(range(1, 51))
+
+print('Total sum from 1 to 51 is ', totalSum)
+
+
+Question 2:
+
+text= input("Enter any text:")
+
+count = 0
+
+for i, char in enumerate(text):
+    if char == 'a':
+        count += 1
+
+print("Number of 'a' in the given text is ", count)
